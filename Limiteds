@@ -194,4 +194,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/mai
   	end    
 })
 
+Tab:AddButton({
+	Name = Ragdoll Rumble",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconBossScript/RagdollRumble/main/RagdollRumble'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Click a Banana",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ClickBanana", true))()
+  	end    
+})
+
 OrionLib:Init()
