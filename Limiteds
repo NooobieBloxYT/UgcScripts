@@ -1,0 +1,197 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Ugc Limited Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "Ugc Scripts"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "nil",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Credit: NoobieBlox"
+})
+
+OrionLib:MakeNotification({
+	Name = "Notification!!!",
+	Content = "Script Executed",
+	Image = "nil",
+	Time = 10
+})
+
+Tab:AddButton({
+	Name = "Dettol Hygiene Quest",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/DettolHygiene"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Escape Pirate Cove",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/BaconScript/Pirate/main/Pirate'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Golf - Just Swing",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/JustSwing", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blox Fruit Free UGC Clicker 1",
+	Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/FREE-UGC-CLICKER-Auto-Spin-And-More-14303"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blox Fruit Free UGC Clicker 2",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Imalwibest/Imalwibest/main/Free%20ugc%20CLICKER%20config.lua'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Danimals Adventure World 1",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/Danimals", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Danimals Adventure World 2",
+	Callback = function()
+(loadstring(game:HttpGet("https://raw.githubusercontent.com/OneCreatorX-New/TwoDev/main/Loader.lua"))())("16733634144")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dance For UGC",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilet71/GeneralUse--/main/Main/Dance%20For%20UGC%20by%20Toilet%2371"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spin 4 Free UGC",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/SPIN4UGC", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Play For UGC",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastefy.app/PmUP7fsB/raw'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Slap For UGC",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/SlapForUGC"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Collect Cats For UGC",
+	Callback = function()
+(loadstring(game:HttpGet("https://raw.githubusercontent.com/OneCreatorX-New/TwoDev/main/Loader.lua"))())("116442374657834")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "UGC Math Race",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/MathBlock"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Collect For UGC",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/CollectforUGC", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "UGC Don't Move",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Imalwibest/main/Don't%20move%20for%20UGC.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Speed Champions",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastefy.app/9g67yG0v/raw'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ninja Fighting Simulator",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastefy.app/RF65zE0P/raw'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Click For UGC",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/ClickForUGC'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Wimble World",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/WimbleWorld", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Collect Stars For UGC",
+	Callback = function()
+(loadstring(game:HttpGet("https://raw.githubusercontent.com/OneCreatorX-New/TwoDev/main/Loader.lua"))())("17399448126")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pancake Empire",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/Pancake'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bee Factory Tycoon",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/BeeTycoon", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Raise a Rainbocorn",
+	Callback = function()
+(loadstring(game:HttpGet("https://raw.githubusercontent.com/OneCreatorX-New/TwoDev/main/Loader.lua"))())("14514619501")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Style Stars",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/StyleStars", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "NHL Blast",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/NHLObby", true))()
+  	end    
+})
+
+OrionLib:Init()
